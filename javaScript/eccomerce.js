@@ -285,13 +285,13 @@ const validateInputs = () => {
         successCounter+=1;
     }
 
-        contactButton.addEventListener('click',()=>{
-        if(successCounter >= 5){
-            const response=document.querySelector('.response');
-            response.textContent=`Response recorded, we will try
-            to reach your concern as soon as possible`;
+    contactButton.addEventListener('click',()=>{
+    if(successCounter >= 4){
+        const response=document.querySelector('.response');
+        response.textContent=`Response recorded, we will try
+        to reach your concern as soon as possible`;
 
-        }
+    }
     })
    
 
